@@ -8,7 +8,7 @@ ruby-pinyin可以把汉字转化为对应的拼音，并能够较好的处理多
         PinYin.of_string('南京市长江大桥', :ascii)
 
 能够正确的将“长”转为"chang2", 而不是"zhang3".
-
+ 
 ## Features
 
 * 支持多音字
@@ -78,6 +78,7 @@ PinYin.backend = PinYin::Backend::Simple.new
 ## 欢迎任何帮助 ##
 
 如果你喜欢这个项目，请通过(不限)以下方式帮助她!
+
 
 * 各种使用
 * 各种宣传
